@@ -5,6 +5,9 @@ public class Rent {
 	private String Name;
 	private String Email;
 	
+	public Rent() {
+	}
+	
 	public Rent(String name, String email) {
 		Name = name;
 		Email = email;
